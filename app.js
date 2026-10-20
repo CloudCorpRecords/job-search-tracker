@@ -296,7 +296,7 @@
       else if (c.long) inner = r[c.key] ? `<div class="clamp">${linkify(r[c.key], q)}</div>` : "";
       else inner = highlight(r[c.key], q);
       return `<td class="${c.cls || ""}">${inner}</td>`;
-    }).join("")}</tr>`).join("") : `<tr><td colspan="${cols.length}"><div class="empty">Nothing matches that search.</div></td></tr>`;
+    }).join("")}</tr>`).join("") : `<tr><td colspan="${cols.length}"><div class="empty">${st.err && !st.rows.length ? "This data isn't available right now. Check back soon." : "Nothing matches that search."}</div></td></tr>`;
     const table = $(`#${which}-table`);
     table.innerHTML = head + `<tbody>${body}</tbody>`;
     table.querySelectorAll("th").forEach((th) => th.addEventListener("click", () => {
@@ -356,8 +356,10 @@
       fetchCsv([params.get("prs"), sourceUrl(cfg.prsCsv, cfg.prsSheetId), "data/prs.csv"]),
     ]);
     const errs = [];
-    if (jobs.status === "fulfilled") state.jobs.rows = mapJobs(jobs.value); else errs.push(`Job sheet: ${jobs.reason.message}`);
-    if (prs.status === "fulfilled") state.prs.rows = mapPrs(prs.value); else errs.push(`PR sheet: ${prs.reason.message}`);
+    state.jobs.err = jobs.status === "rejected";
+    state.prs.err = prs.status === "rejected";
+    if (!state.jobs.err) state.jobs.rows = mapJobs(jobs.value); else errs.push("the job tracker sheet");
+    if (!state.prs.err) state.prs.rows = mapPrs(prs.value); else errs.push("the PR tracker sheet");
     renderAll();
     const ok = errs.length < 2;
     $("#pulse").classList.toggle("live", ok);
@@ -366,7 +368,7 @@
     $("#foot-updated").textContent = `Last sync ${new Date().toLocaleString()}`;
     const err = $("#error");
     err.hidden = !errs.length;
-    err.textContent = errs.length ? errs.join(" · ") + ". Check the CSV links in config.js." : "";
+    err.textContent = errs.length ? `Couldn't load ${errs.join(" or ")}. It needs to be shared as "anyone with the link can view" or published to the web.` : "";
     $("#refresh").disabled = false;
   }
 
