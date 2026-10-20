@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Job Search Tracker</title>
+  <meta name="description" content="Rene Turcios: live job application and open-source PR tracker, updated from Google Sheets.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%233987e5'/><path d='M8 20l5-6 4 4 7-9' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <div class="hero-top">
+        <div>
+          <p class="eyebrow"><span class="pulse" id="pulse"></span><span id="sync">Connecting to Google Sheets…</span></p>
+          <h1 id="title">Job Search Tracker</h1>
+          <p class="lede">Every application I send and every open-source PR I open, logged live. Search, filter and sort everything below.</p>
+        </div>
+        <div class="hero-actions">
+          <button class="btn" id="theme" type="button" aria-label="Toggle color theme">◐</button>
+          <button class="btn" id="refresh" type="button">↻ Refresh</button>
+          <a class="btn" id="gh" href="#" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+      <nav class="tabs" role="tablist">
+        <button role="tab" class="tab active" data-view="jobs" aria-selected="true">Job applications <span class="count" id="jobs-count">–</span></button>
+        <button role="tab" class="tab" data-view="prs" aria-selected="false">Open-source PRs <span class="count" id="prs-count">–</span></button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="view" id="view-jobs">
+      <div class="kpis" id="jobs-kpis"></div>
+      <div class="grid2">
+        <div class="card">
+          <div class="card-head"><h2>Activity by day</h2><span class="muted" id="jobs-act-note"></span></div>
+          <div class="chart" id="jobs-activity"></div>
+        </div>
+        <div class="card">
+          <div class="card-head"><h2>Status breakdown</h2><span class="muted">click to filter</span></div>
+          <div id="jobs-status"></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-head"><h2>Most-contacted companies</h2><span class="muted">click to search</span></div>
+        <div class="pills" id="jobs-top"></div>
+      </div>
+      <div class="card">
+        <div class="toolbar">
+          <input type="search" id="jobs-q" placeholder="Search company, role, notes…" autocomplete="off">
+          <select id="jobs-status-filter"><option value="">All statuses</option></select>
+          <select id="jobs-channel-filter"><option value="">All channels</option></select>
+          <span class="muted" id="jobs-shown"></span>
+        </div>
+        <div class="table-wrap"><table id="jobs-table"></table></div>
+        <div class="pager" id="jobs-pager"></div>
+      </div>
+    </section>
+
+    <section class="view" id="view-prs" hidden>
+      <div class="kpis" id="prs-kpis"></div>
+      <div class="grid2">
+        <div class="card">
+          <div class="card-head"><h2>Pipeline stage</h2><span class="muted">click to filter</span></div>
+          <div id="prs-status"></div>
+        </div>
+        <div class="card">
+          <div class="card-head"><h2>Repos</h2><span class="muted">click to search</span></div>
+          <div class="pills" id="prs-top"></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="toolbar">
+          <input type="search" id="prs-q" placeholder="Search repo, issue, notes…" autocomplete="off">
+          <select id="prs-status-filter"><option value="">All stages</option></select>
+          <select id="prs-type-filter"><option value="">All types</option></select>
+          <span class="muted" id="prs-shown"></span>
+        </div>
+        <div class="table-wrap"><table id="prs-table"></table></div>
+        <div class="pager" id="prs-pager"></div>
+      </div>
+    </section>
+
+    <p class="error" id="error" hidden></p>
+  </main>
+
+  <footer class="wrap foot">
+    <span>Data streams from Google Sheets on every visit and refreshes every few minutes.</span>
+    <span id="foot-updated"></span>
+  </footer>
+
+  <div class="tip" id="tip" role="tooltip" hidden></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
