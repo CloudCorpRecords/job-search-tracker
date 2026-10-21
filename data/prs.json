@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-21T21:59:43.754674+00:00",
+ "generatedAt": "2026-10-21T22:38:52.768446+00:00",
  "source": "GitHub API issue and PR objects; row list from the PR tracker sheet (read only)",
  "rows": [
   {
@@ -4024,6 +4024,29 @@
    "prState": "open",
    "prDate": null,
    "prLabel": "PR #8135 open",
+   "stage": "PR open",
+   "error": ""
+  },
+  {
+   "date": "2026-10-21",
+   "repo": "batrapulkit/squidbrake",
+   "issue": "62",
+   "title": "Terminal guard: also check what make, npm run and bash x.sh run underneath (runs.py)",
+   "issueUrl": "https://github.com/batrapulkit/squidbrake/issues/62",
+   "type": "",
+   "labels": "",
+   "trackerStatus": "PR OPEN",
+   "branch": "",
+   "files": "",
+   "notes": "",
+   "issueState": "open",
+   "issueClosedAt": null,
+   "status": "Open",
+   "prNumber": 131,
+   "prUrl": "https://github.com/batrapulkit/squidbrake/pull/131",
+   "prState": "open",
+   "prDate": null,
+   "prLabel": "PR #131 open",
    "stage": "PR open",
    "error": ""
   }
