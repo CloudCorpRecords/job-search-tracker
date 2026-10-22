@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-22T08:32:30.477074+00:00",
+ "generatedAt": "2026-10-22T10:37:03.829199+00:00",
  "source": "GitHub API issue and PR objects; row list from the PR tracker sheet (read only)",
  "rows": [
   {
@@ -934,15 +934,15 @@
    "branch": "",
    "files": "",
    "notes": "Founder hired his first contributor (Sequoia Training Data podcast); job posts value OSS contributions. Gates: CLA + ask-first comment and WAIT for team response before starting. Fix: packages/@n8n/agents/src/runtime/model/openai-api-style.ts. TS. Unclaimed, no open PR.",
-   "issueState": "open",
-   "issueClosedAt": null,
-   "status": "Open",
+   "issueState": "closed",
+   "issueClosedAt": "2026-10-22",
+   "status": "Closed 2026-10-22",
    "prNumber": null,
    "prUrl": "",
    "prState": null,
    "prDate": null,
    "prLabel": "",
-   "stage": "Issue open",
+   "stage": "Issue closed",
    "error": ""
   },
   {
@@ -1613,9 +1613,9 @@
    "error": ""
   },
   {
-   "date": "",
+   "date": "2026-10-15",
    "repo": "marimo-team/marimo",
-   "issue": "",
+   "issue": "6076",
    "title": "Marimo Static HTML Export with dynamic mo.ui.tabs",
    "issueUrl": "https://github.com/marimo-team/marimo/issues/6076",
    "type": "enhancement",
@@ -1636,9 +1636,9 @@
    "error": ""
   },
   {
-   "date": "",
+   "date": "2026-10-15",
    "repo": "marimo-team/marimo",
-   "issue": "",
+   "issue": "6250",
    "title": "postgres/sqlalchemy display of timestamptz loses my local timezone",
    "issueUrl": "https://github.com/marimo-team/marimo/issues/6250",
    "type": "bug",
@@ -1659,9 +1659,9 @@
    "error": ""
   },
   {
-   "date": "",
+   "date": "2026-10-15",
    "repo": "actualbudget/actual-gh-bot",
-   "issue": "",
+   "issue": "6643",
    "title": "[Bug]: Copilot PR approval label added incorrectly when author approves their own PR",
    "issueUrl": "https://github.com/actualbudget/actual/issues/6643",
    "type": "bug",
@@ -1843,9 +1843,9 @@
    "error": ""
   },
   {
-   "date": "",
+   "date": "2026-10-15",
    "repo": "convex/convex-js",
-   "issue": "",
+   "issue": "201",
    "title": "`ai-files update` reverts formatter changes in the managed AGENTS.md section",
    "issueUrl": "https://github.com/convex/convex-js/issues/201",
    "type": "bug",
@@ -3246,9 +3246,9 @@
    "error": ""
   },
   {
-   "date": "",
+   "date": "2026-10-13",
    "repo": "WingedGuardian/GENesis-AGI",
-   "issue": "",
+   "issue": "3048",
    "title": "test: test_live_backlog_skips_unapproved cannot fail (in-memory db invisible to the apply path)",
    "issueUrl": "https://github.com/WingedGuardian/GENesis-AGI/issues/3048",
    "type": "PR",
@@ -3269,9 +3269,9 @@
    "error": ""
   },
   {
-   "date": "",
+   "date": "2026-10-13",
    "repo": "ZHangZHengEric/Sage",
-   "issue": "",
+   "issue": "291",
    "title": "docs: validate local links throughout the knowledge hub",
    "issueUrl": "https://github.com/ZHangZHengEric/Sage/issues/291",
    "type": "PR",
@@ -3292,9 +3292,9 @@
    "error": ""
   },
   {
-   "date": "",
+   "date": "2026-10-13",
    "repo": "smaramwbc/statewave-openrouter",
-   "issue": "",
+   "issue": "476",
    "title": "[Bug][openrouter]: STATEWAVE_COMPILE_AFTER_TURN ignores the compile response - failed compiles are never logged",
    "issueUrl": "https://github.com/smaramwbc/statewave/issues/476",
    "type": "PR",
@@ -3315,9 +3315,9 @@
    "error": ""
   },
   {
-   "date": "",
+   "date": "2026-10-13",
    "repo": "gopherium/gophenberg",
-   "issue": "",
+   "issue": "389",
    "title": "Strip accents from new slugs the way WordPress does",
    "issueUrl": "https://github.com/gopherium/gophenberg/issues/389",
    "type": "PR",
@@ -3338,9 +3338,9 @@
    "error": ""
   },
   {
-   "date": "",
+   "date": "2026-10-13",
    "repo": "pablocaeg/sloptotal",
-   "issue": "",
+   "issue": "22",
    "title": "Enable ruff's pyupgrade rules (UP) for Python 3.10",
    "issueUrl": "https://github.com/pablocaeg/sloptotal/issues/22",
    "type": "PR",
@@ -3361,9 +3361,9 @@
    "error": ""
   },
   {
-   "date": "",
+   "date": "2026-10-13",
    "repo": "pablocaeg/sloptotal",
-   "issue": "",
+   "issue": "21",
    "title": "Enable ruff's import sorting rule (I) and fix what it reports",
    "issueUrl": "https://github.com/pablocaeg/sloptotal/issues/21",
    "type": "PR",
@@ -3384,9 +3384,9 @@
    "error": ""
   },
   {
-   "date": "",
+   "date": "2026-10-13",
    "repo": "contextforge-org/contextforge-web-ui",
-   "issue": "",
+   "issue": "7007",
    "title": "[UI-REWRITE]: Hand-rolled label/error markup instead of the shared Field component",
    "issueUrl": "https://github.com/IBM/mcp-context-forge/issues/7007",
    "type": "PR",
@@ -3407,9 +3407,9 @@
    "error": ""
   },
   {
-   "date": "",
+   "date": "2026-10-08",
    "repo": "contextforge-org/contextforge-web-ui",
-   "issue": "",
+   "issue": "7007",
    "title": "[UI-REWRITE]: Hand-rolled label/error markup instead of the shared Field component",
    "issueUrl": "https://github.com/IBM/mcp-context-forge/issues/7007",
    "type": "PR",
@@ -3430,9 +3430,9 @@
    "error": ""
   },
   {
-   "date": "",
+   "date": "2026-10-08",
    "repo": "contextforge-org/contextforge-web-ui",
-   "issue": "",
+   "issue": "7007",
    "title": "[UI-REWRITE]: Hand-rolled label/error markup instead of the shared Field component",
    "issueUrl": "https://github.com/IBM/mcp-context-forge/issues/7007",
    "type": "PR",
@@ -3453,7 +3453,7 @@
    "error": ""
   },
   {
-   "date": "",
+   "date": "2026-10-15",
    "repo": "CloudCorpRecords/CloudCorpRecords",
    "issue": "",
    "title": "docs: Greenlight v0.3.2 on the profile",
@@ -3476,7 +3476,7 @@
    "error": ""
   },
   {
-   "date": "",
+   "date": "2026-10-16",
    "repo": "CloudCorpRecords/greenlight",
    "issue": "",
    "title": "docs: note guard dogfooding on this repo",
@@ -3499,7 +3499,7 @@
    "error": ""
   },
   {
-   "date": "",
+   "date": "2026-10-17",
    "repo": "CloudCorpRecords/trainerboi",
    "issue": "",
    "title": "Pretty README + marketing launch kit",
@@ -3522,7 +3522,7 @@
    "error": ""
   },
   {
-   "date": "",
+   "date": "2026-10-17",
    "repo": "CloudCorpRecords/trainerboi",
    "issue": "",
    "title": "Make TrainerBoi work fully on macOS (Apple Silicon / MPS)",
@@ -3545,7 +3545,7 @@
    "error": ""
   },
   {
-   "date": "",
+   "date": "2026-10-18",
    "repo": "CloudCorpRecords/claim-api",
    "issue": "",
    "title": "Registration package: manifest, runbook, docs",
@@ -3568,7 +3568,7 @@
    "error": ""
   },
   {
-   "date": "",
+   "date": "2026-10-18",
    "repo": "CloudCorpRecords/claim-api",
    "issue": "",
    "title": "App v1 webhook backend: handlers, routes, sweep, 1.0.0",
@@ -3591,7 +3591,7 @@
    "error": ""
   },
   {
-   "date": "",
+   "date": "2026-10-18",
    "repo": "CloudCorpRecords/claim-api",
    "issue": "",
    "title": "App v1 foundation: config, auth, stateless sessions, rate limits, durable store, gate check",
@@ -3614,7 +3614,7 @@
    "error": ""
   },
   {
-   "date": "",
+   "date": "2026-10-18",
    "repo": "CloudCorpRecords/claim-api",
    "issue": "",
    "title": "Add CI workflow (node --test)",
@@ -3637,7 +3637,7 @@
    "error": ""
   },
   {
-   "date": "",
+   "date": "2026-10-18",
    "repo": "CloudCorpRecords/greenlight",
    "issue": "",
    "title": "chore: release v0.12.0",
@@ -3660,7 +3660,7 @@
    "error": ""
   },
   {
-   "date": "",
+   "date": "2026-10-18",
    "repo": "CloudCorpRecords/greenlight",
    "issue": "",
    "title": "feat: Claim Protocol hosted-API client (auth, claim/release/heartbeat --via-api)",
@@ -3683,7 +3683,7 @@
    "error": ""
   },
   {
-   "date": "",
+   "date": "2026-10-18",
    "repo": "CloudCorpRecords/greenlight",
    "issue": "",
    "title": "Greenlight v0.11.0: Autopilot (PR feedback that fixes itself)",
@@ -3706,7 +3706,7 @@
    "error": ""
   },
   {
-   "date": "",
+   "date": "2026-10-18",
    "repo": "CloudCorpRecords/greenlight",
    "issue": "",
    "title": "fix(docker): add MCP Registry OCI annotation label",
@@ -3729,7 +3729,7 @@
    "error": ""
   },
   {
-   "date": "",
+   "date": "2026-10-18",
    "repo": "CloudCorpRecords/greenlight",
    "issue": "",
    "title": "Greenlight v0.10.1: never again hardening",
@@ -3752,7 +3752,7 @@
    "error": ""
   },
   {
-   "date": "",
+   "date": "2026-10-18",
    "repo": "CloudCorpRecords/greenlight",
    "issue": "",
    "title": "Fix ledger entry identity collision (v0.10.0 follow-up)",
@@ -3775,7 +3775,7 @@
    "error": ""
   },
   {
-   "date": "",
+   "date": "2026-10-18",
    "repo": "CloudCorpRecords/greenlight",
    "issue": "",
    "title": "Greenlight v0.10.0: multi-agent campaign management",
@@ -4071,6 +4071,29 @@
    "prDate": null,
    "prLabel": "PR #9095 open",
    "stage": "PR open",
+   "error": ""
+  },
+  {
+   "date": "2026-10-22",
+   "repo": "CloudCorpRecords/graphql",
+   "issue": "",
+   "title": "test: fork-self PR probe",
+   "issueUrl": "",
+   "type": "",
+   "labels": "",
+   "trackerStatus": "CLOSED 2026-10-22 unmerged",
+   "branch": "",
+   "files": "",
+   "notes": "Auto-added by pr-tracker-reconcile (API census, no matching row)",
+   "issueState": null,
+   "issueClosedAt": null,
+   "status": "PR only",
+   "prNumber": 1,
+   "prUrl": "https://github.com/CloudCorpRecords/graphql/pull/1",
+   "prState": "closed",
+   "prDate": "2026-10-22",
+   "prLabel": "PR #1 closed unmerged 2026-10-22",
+   "stage": "PR closed unmerged",
    "error": ""
   }
  ]
