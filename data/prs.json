@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-21T22:38:52.768446+00:00",
+ "generatedAt": "2026-10-22T00:38:05.748051+00:00",
  "source": "GitHub API issue and PR objects; row list from the PR tracker sheet (read only)",
  "rows": [
   {
@@ -4047,6 +4047,29 @@
    "prState": "open",
    "prDate": null,
    "prLabel": "PR #131 open",
+   "stage": "PR open",
+   "error": ""
+  },
+  {
+   "date": "2026-10-21",
+   "repo": "wallabag/wallabag",
+   "issue": "7746",
+   "title": "PATCH API endpoint can't edit/unstar articles",
+   "issueUrl": "https://github.com/wallabag/wallabag/issues/7746",
+   "type": "",
+   "labels": "",
+   "trackerStatus": "PR OPEN",
+   "branch": "",
+   "files": "",
+   "notes": "Auto-added by pr-tracker-reconcile (API census, no matching row)",
+   "issueState": "open",
+   "issueClosedAt": null,
+   "status": "Open",
+   "prNumber": 9095,
+   "prUrl": "https://github.com/wallabag/wallabag/pull/9095",
+   "prState": "open",
+   "prDate": null,
+   "prLabel": "PR #9095 open",
    "stage": "PR open",
    "error": ""
   }
