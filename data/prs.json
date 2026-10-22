@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-22T16:32:44.169075+00:00",
+ "generatedAt": "2026-10-22T22:35:51.213971+00:00",
  "source": "GitHub API issue and PR objects; row list from the PR tracker sheet (read only)",
  "rows": [
   {
@@ -4094,6 +4094,29 @@
    "prDate": "2026-10-22",
    "prLabel": "PR #1 closed unmerged 2026-10-22",
    "stage": "PR closed unmerged",
+   "error": ""
+  },
+  {
+   "date": "2026-10-22",
+   "repo": "restify/node-restify",
+   "issue": "1589",
+   "title": "Additional content-type parameters are thrown away",
+   "issueUrl": "https://github.com/restify/node-restify/issues/1589",
+   "type": "",
+   "labels": "",
+   "trackerStatus": "PR OPEN",
+   "branch": "",
+   "files": "",
+   "notes": "",
+   "issueState": "open",
+   "issueClosedAt": null,
+   "status": "Open",
+   "prNumber": 2022,
+   "prUrl": "https://github.com/restify/node-restify/pull/2022",
+   "prState": "open",
+   "prDate": null,
+   "prLabel": "PR #2022 open",
+   "stage": "PR open",
    "error": ""
   }
  ]
