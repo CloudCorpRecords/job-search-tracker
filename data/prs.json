@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-22T02:34:24.341983+00:00",
+ "generatedAt": "2026-10-22T02:42:14.580178+00:00",
  "source": "GitHub API issue and PR objects; row list from the PR tracker sheet (read only)",
  "rows": [
   {
@@ -4071,29 +4071,6 @@
    "prDate": null,
    "prLabel": "PR #9095 open",
    "stage": "PR open",
-   "error": ""
-  },
-  {
-   "date": "2026-10-16",
-   "repo": "actualbudget/actual-gh-bot",
-   "issue": "",
-   "title": "[WIP] Ignore PR author and Copilot task initiator reviews in review status",
-   "issueUrl": "",
-   "type": "",
-   "labels": "https://github.com/actualbudget/actual-gh-bot/pull/49",
-   "trackerStatus": "CLOSED 2026-10-17 unmerged",
-   "branch": "",
-   "files": "",
-   "notes": "",
-   "issueState": null,
-   "issueClosedAt": null,
-   "status": "No linked issue",
-   "prNumber": null,
-   "prUrl": "",
-   "prState": null,
-   "prDate": null,
-   "prLabel": "",
-   "stage": "Unknown",
    "error": ""
   }
  ]
