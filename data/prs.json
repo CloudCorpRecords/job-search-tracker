@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-22T02:42:14.580178+00:00",
+ "generatedAt": "2026-10-22T08:32:30.477074+00:00",
  "source": "GitHub API issue and PR objects; row list from the PR tracker sheet (read only)",
  "rows": [
   {
@@ -4035,19 +4035,19 @@
    "issueUrl": "https://github.com/batrapulkit/squidbrake/issues/62",
    "type": "",
    "labels": "https://github.com/batrapulkit/squidbrake/pull/131",
-   "trackerStatus": "PR OPEN",
+   "trackerStatus": "MERGED 2026-10-22",
    "branch": "",
    "files": "",
    "notes": "",
-   "issueState": "open",
-   "issueClosedAt": null,
-   "status": "Open",
+   "issueState": "closed",
+   "issueClosedAt": "2026-10-22",
+   "status": "Closed 2026-10-22",
    "prNumber": 131,
    "prUrl": "https://github.com/batrapulkit/squidbrake/pull/131",
-   "prState": "open",
-   "prDate": null,
-   "prLabel": "PR #131 open",
-   "stage": "PR open",
+   "prState": "merged",
+   "prDate": "2026-10-22",
+   "prLabel": "PR #131 merged 2026-10-22",
+   "stage": "Merged",
    "error": ""
   },
   {
