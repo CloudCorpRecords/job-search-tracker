@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-23T14:38:49.057250+00:00",
+ "generatedAt": "2026-10-23T16:38:14.382242+00:00",
  "source": "GitHub API issue and PR objects; row list from the PR tracker sheet (read only)",
  "rows": [
   {
@@ -2245,15 +2245,15 @@
    "branch": "",
    "files": "packages/nuxt/src/app/plugins/view-transitions.client.ts",
    "notes": "Greenlight GO. Fix shape verified against the existing finished and ready handlers in the same file. Claimed under the pending triage label; withdraw if triage clears against it. Claim comment 6235422046, eta 3d",
-   "issueState": "open",
-   "issueClosedAt": null,
-   "status": "Open",
+   "issueState": "closed",
+   "issueClosedAt": "2026-10-23",
+   "status": "Closed 2026-10-23",
    "prNumber": null,
    "prUrl": "",
    "prState": null,
    "prDate": null,
    "prLabel": "",
-   "stage": "Issue open",
+   "stage": "Issue closed",
    "error": ""
   },
   {
