@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-23T02:34:24.404562+00:00",
+ "generatedAt": "2026-10-23T04:37:03.420972+00:00",
  "source": "GitHub API issue and PR objects; row list from the PR tracker sheet (read only)",
  "rows": [
   {
@@ -4116,6 +4116,29 @@
    "prState": "open",
    "prDate": null,
    "prLabel": "PR #2022 open",
+   "stage": "PR open",
+   "error": ""
+  },
+  {
+   "date": "2026-10-22",
+   "repo": "git-pkgs/forge",
+   "issue": "177",
+   "title": "Github: can't upload assets to draft releases",
+   "issueUrl": "https://github.com/git-pkgs/forge/issues/177",
+   "type": "",
+   "labels": "",
+   "trackerStatus": "PR OPEN",
+   "branch": "",
+   "files": "",
+   "notes": "Auto-added by reconcile 2026-10-22: PR opened in another thread; claim status unknown",
+   "issueState": "open",
+   "issueClosedAt": null,
+   "status": "Open",
+   "prNumber": 190,
+   "prUrl": "https://github.com/git-pkgs/forge/pull/190",
+   "prState": "open",
+   "prDate": null,
+   "prLabel": "PR #190 open",
    "stage": "PR open",
    "error": ""
   }
