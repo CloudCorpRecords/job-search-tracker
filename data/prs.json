@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-23T16:38:14.382242+00:00",
+ "generatedAt": "2026-10-23T18:35:42.727167+00:00",
  "source": "GitHub API issue and PR objects; row list from the PR tracker sheet (read only)",
  "rows": [
   {
@@ -2429,15 +2429,15 @@
    "branch": "CloudCorpRecords/typescript-sdk @ fix/hono-node-server-bump-3022",
    "files": "pnpm-workspace.yaml, pnpm-lock.yaml",
    "notes": "comment 6238978239; ETA 4 days; fix committed 3f8eb0f5 (DCO signed); PR open blocked: PAT API 404 + connector 403 on upstream - needs browser one-click open",
-   "issueState": "open",
-   "issueClosedAt": null,
-   "status": "Open",
+   "issueState": "closed",
+   "issueClosedAt": "2026-10-23",
+   "status": "Closed 2026-10-23",
    "prNumber": null,
    "prUrl": "",
    "prState": null,
    "prDate": null,
    "prLabel": "",
-   "stage": "Issue open",
+   "stage": "Issue closed",
    "error": ""
   },
   {
