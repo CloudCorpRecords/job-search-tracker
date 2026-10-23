@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-22T22:35:51.213971+00:00",
+ "generatedAt": "2026-10-23T02:34:24.404562+00:00",
  "source": "GitHub API issue and PR objects; row list from the PR tracker sheet (read only)",
  "rows": [
   {
@@ -1164,15 +1164,15 @@
    "branch": "",
    "files": "",
    "notes": "Same hiring/gates as row 48. Unclaimed, bots only. Fix: dashboard wrong \"end at\" time under CEL query; scope unclear, investigate before claiming.",
-   "issueState": "open",
-   "issueClosedAt": null,
-   "status": "Open",
+   "issueState": "closed",
+   "issueClosedAt": "2026-10-23",
+   "status": "Closed 2026-10-23",
    "prNumber": null,
    "prUrl": "",
    "prState": null,
    "prDate": null,
    "prLabel": "",
-   "stage": "Issue open",
+   "stage": "Issue closed",
    "error": ""
   },
   {
