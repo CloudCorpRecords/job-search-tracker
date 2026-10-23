@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-23T04:37:03.420972+00:00",
+ "generatedAt": "2026-10-23T06:31:16.747571+00:00",
  "source": "GitHub API issue and PR objects; row list from the PR tracker sheet (read only)",
  "rows": [
   {
@@ -3993,15 +3993,15 @@
    "branch": "",
    "files": "",
    "notes": "",
-   "issueState": "open",
-   "issueClosedAt": null,
-   "status": "Open",
+   "issueState": "closed",
+   "issueClosedAt": "2026-10-23",
+   "status": "Closed 2026-10-23",
    "prNumber": 11,
    "prUrl": "https://github.com/sqmagellan/razer-ctl/pull/11",
-   "prState": "open",
-   "prDate": null,
-   "prLabel": "PR #11 open",
-   "stage": "PR open",
+   "prState": "merged",
+   "prDate": "2026-10-23",
+   "prLabel": "PR #11 merged 2026-10-23",
+   "stage": "Merged",
    "error": ""
   },
   {
