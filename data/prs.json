@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-23T08:42:48.002802+00:00",
+ "generatedAt": "2026-10-23T12:31:39.271382+00:00",
  "source": "GitHub API issue and PR objects; row list from the PR tracker sheet (read only)",
  "rows": [
   {
@@ -3832,15 +3832,15 @@
    "branch": "",
    "files": "",
    "notes": "",
-   "issueState": "open",
-   "issueClosedAt": null,
-   "status": "Open",
+   "issueState": "closed",
+   "issueClosedAt": "2026-10-23",
+   "status": "Closed 2026-10-23",
    "prNumber": 521,
    "prUrl": "https://github.com/gopherium/gophenberg/pull/521",
-   "prState": "open",
-   "prDate": null,
-   "prLabel": "PR #521 open",
-   "stage": "PR open",
+   "prState": "merged",
+   "prDate": "2026-10-23",
+   "prLabel": "PR #521 merged 2026-10-23",
+   "stage": "Merged",
    "error": ""
   },
   {
