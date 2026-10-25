@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-24T22:41:39.947712+00:00",
+ "generatedAt": "2026-10-25T02:36:03.958539+00:00",
  "source": "GitHub API issue and PR objects; row list from the PR tracker sheet (read only)",
  "rows": [
   {
@@ -1597,7 +1597,7 @@
    "issueUrl": "https://github.com/tscircuit/tscircuit/issues/5542",
    "type": "bug",
    "labels": "https://github.com/tscircuit/circuit-to-svg/pull/858",
-   "trackerStatus": "PR OPEN",
+   "trackerStatus": "CLOSED 2026-10-25 unmerged",
    "branch": "CloudCorpRecords/circuit-to-svg / fix/silkscreen-text-svg-baseline-5542",
    "files": "46",
    "notes": "PR C of the #5542 set (companion: circuit-to-canvas PR #310). Baseline fix: dominant-baseline heuristics replaced, alphabetic baseline at (boxTopOffset + 0.7) x font_size per alignment row, multi-line dy 1.152 x F. Red first (2 fail), green 2 pass 35 assertions; full bun suite 466 pass 0 fail (base 464). Remote tree verified identical to the locally tested commit (49e05485). PR A (Gerber writer inverted edge anchors) still held for maintainer sign-off.",
@@ -1606,10 +1606,10 @@
    "status": "Open",
    "prNumber": 858,
    "prUrl": "https://github.com/tscircuit/circuit-to-svg/pull/858",
-   "prState": "open",
-   "prDate": null,
-   "prLabel": "PR #858 open",
-   "stage": "PR open",
+   "prState": "closed",
+   "prDate": "2026-10-25",
+   "prLabel": "PR #858 closed unmerged 2026-10-25",
+   "stage": "PR closed unmerged",
    "error": ""
   },
   {
