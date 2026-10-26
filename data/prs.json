@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26T00:59:24.869503+00:00",
+ "generatedAt": "2026-10-26T03:21:01.995623+00:00",
  "source": "GitHub API issue and PR objects; row list from the PR tracker sheet (read only)",
  "rows": [
   {
@@ -4899,6 +4899,52 @@
    "prDate": "2026-10-25",
    "prLabel": "PR #13 closed unmerged 2026-10-25",
    "stage": "PR closed unmerged",
+   "error": ""
+  },
+  {
+   "date": "2026-10-25",
+   "repo": "CloudCorpRecords/nightshift-gb10",
+   "issue": "",
+   "title": "README: xod-style header with in-repo videos",
+   "issueUrl": "",
+   "type": "",
+   "labels": "",
+   "trackerStatus": "MERGED 2026-10-25",
+   "branch": "",
+   "files": "",
+   "notes": "",
+   "issueState": null,
+   "issueClosedAt": null,
+   "status": "PR only",
+   "prNumber": 15,
+   "prUrl": "https://github.com/CloudCorpRecords/nightshift-gb10/pull/15",
+   "prState": "merged",
+   "prDate": "2026-10-26",
+   "prLabel": "PR #15 merged 2026-10-26",
+   "stage": "Merged",
+   "error": ""
+  },
+  {
+   "date": "2026-10-25",
+   "repo": "CloudCorpRecords/nightshift-gb10",
+   "issue": "",
+   "title": "README: v6 demo film plays in-repo",
+   "issueUrl": "",
+   "type": "",
+   "labels": "",
+   "trackerStatus": "MERGED 2026-10-25",
+   "branch": "",
+   "files": "",
+   "notes": "",
+   "issueState": null,
+   "issueClosedAt": null,
+   "status": "PR only",
+   "prNumber": 16,
+   "prUrl": "https://github.com/CloudCorpRecords/nightshift-gb10/pull/16",
+   "prState": "merged",
+   "prDate": "2026-10-26",
+   "prLabel": "PR #16 merged 2026-10-26",
+   "stage": "Merged",
    "error": ""
   }
  ]
