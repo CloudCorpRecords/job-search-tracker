@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26T09:03:23.452637+00:00",
+ "generatedAt": "2026-10-26T10:40:56.462867+00:00",
  "source": "GitHub API issue and PR objects; row list from the PR tracker sheet (read only)",
  "rows": [
   {
@@ -516,19 +516,19 @@
    "issueUrl": "https://github.com/reticlehq/reticle/issues/894",
    "type": "Bug fix",
    "labels": "https://github.com/reticlehq/reticle/pull/1620",
-   "trackerStatus": "PR OPEN",
+   "trackerStatus": "MERGED 2026-10-26",
    "branch": "CloudCorpRecords/reticle fix/selectable-items-own-label",
    "files": "",
    "notes": "PR #1620: CI fully green on first head. Maintainer divshekhar reviewed 2026-10-15: selection-role change approved, but the filename-token rule also stripped plain hyphen/underscore compounds, letting delete-account / Force-delete / delete_repo past the guard. Fixed same day (commit 5a2cd6): token counts as a filename only when it ends in a known extension; his 3 cases added as must-block tests (failed before, pass after); full browser suite 2,146/2,146 pass locally. Reply posted to maintainer.",
-   "issueState": "open",
-   "issueClosedAt": null,
-   "status": "Open",
+   "issueState": "closed",
+   "issueClosedAt": "2026-10-26",
+   "status": "Closed 2026-10-26",
    "prNumber": 1620,
    "prUrl": "https://github.com/reticlehq/reticle/pull/1620",
-   "prState": "open",
-   "prDate": null,
-   "prLabel": "PR #1620 open",
-   "stage": "PR open",
+   "prState": "merged",
+   "prDate": "2026-10-26",
+   "prLabel": "PR #1620 merged 2026-10-26",
+   "stage": "Merged",
    "error": ""
   },
   {
