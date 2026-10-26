@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26T03:21:01.995623+00:00",
+ "generatedAt": "2026-10-26T09:03:23.452637+00:00",
  "source": "GitHub API issue and PR objects; row list from the PR tracker sheet (read only)",
  "rows": [
   {
@@ -4909,7 +4909,7 @@
    "issueUrl": "",
    "type": "",
    "labels": "",
-   "trackerStatus": "MERGED 2026-10-25",
+   "trackerStatus": "MERGED 2026-10-26",
    "branch": "",
    "files": "",
    "notes": "",
@@ -4932,7 +4932,7 @@
    "issueUrl": "",
    "type": "",
    "labels": "",
-   "trackerStatus": "MERGED 2026-10-25",
+   "trackerStatus": "MERGED 2026-10-26",
    "branch": "",
    "files": "",
    "notes": "",
@@ -4945,6 +4945,29 @@
    "prDate": "2026-10-26",
    "prLabel": "PR #16 merged 2026-10-26",
    "stage": "Merged",
+   "error": ""
+  },
+  {
+   "date": "2026-10-25",
+   "repo": "ManimCommunity/manim",
+   "issue": "3622",
+   "title": "Add linting back to CI",
+   "issueUrl": "https://github.com/ManimCommunity/manim/issues/3622",
+   "type": "",
+   "labels": "",
+   "trackerStatus": "PR OPEN",
+   "branch": "",
+   "files": "",
+   "notes": "",
+   "issueState": "open",
+   "issueClosedAt": null,
+   "status": "Open",
+   "prNumber": 5101,
+   "prUrl": "https://github.com/ManimCommunity/manim/pull/5101",
+   "prState": "open",
+   "prDate": null,
+   "prLabel": "PR #5101 open",
+   "stage": "PR open",
    "error": ""
   }
  ]
