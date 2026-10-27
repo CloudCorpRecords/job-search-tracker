@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-27T06:57:53.312609+00:00",
+ "generatedAt": "2026-10-27T14:42:41.527571+00:00",
  "source": "GitHub API issue and PR objects; row list from the PR tracker sheet (read only)",
  "rows": [
   {
@@ -3042,7 +3042,7 @@
    "date": "2026-10-18",
    "repo": "cubrid-lab/sqlalchemy-cubrid",
    "issue": "882",
-   "title": "docs(types): correct the namespace of reflected timezone types",
+   "title": "docs: correct the namespace of reflected timezone types",
    "issueUrl": "https://github.com/cubrid-lab/sqlalchemy-cubrid/issues/882",
    "type": "",
    "labels": "https://github.com/cubrid-lab/sqlalchemy-cubrid/pull/973",
