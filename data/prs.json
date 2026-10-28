@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T02:42:50.673160+00:00",
+ "generatedAt": "2026-10-28T10:39:40.651891+00:00",
  "source": "GitHub API issue and PR objects; row list from the PR tracker sheet (read only)",
  "rows": [
   {
@@ -2544,15 +2544,15 @@
    "branch": "CloudCorpRecords/actual @ fix/simplefin-upgrading-error-7333 (63f7670)",
    "files": "packages/loot-core/src/server/accounts/sync.ts, app.ts, sync.test.ts; upcoming-release-notes/simplefin-upgrading-connection-error.md",
    "notes": "PR queued as PENDING POST: GitHub 403 Blocked on CloudCorpRecords writes (2026-10-17). Fix built+tested locally (6/6 SimpleFin tests pass). Claim comment 6239233915",
-   "issueState": "open",
-   "issueClosedAt": null,
-   "status": "Open",
+   "issueState": "closed",
+   "issueClosedAt": "2026-10-28",
+   "status": "Closed 2026-10-28",
    "prNumber": null,
    "prUrl": "",
    "prState": null,
    "prDate": null,
    "prLabel": "",
-   "stage": "Issue open",
+   "stage": "Issue closed",
    "error": ""
   },
   {
