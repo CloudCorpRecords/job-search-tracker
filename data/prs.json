@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31T06:42:27.117110+00:00",
+ "generatedAt": "2026-10-31T12:45:25.435847+00:00",
  "source": "GitHub API issue and PR objects; row list from the PR tracker sheet (read only)",
  "rows": [
   {
@@ -5175,6 +5175,52 @@
    "prDate": "2026-10-31",
    "prLabel": "PR #12 merged 2026-10-31",
    "stage": "Merged",
+   "error": ""
+  },
+  {
+   "date": "2026-10-31",
+   "repo": "CloudCorpRecords/rdrive",
+   "issue": "",
+   "title": "Night garden redesign, built for phones",
+   "issueUrl": "",
+   "type": "",
+   "labels": "",
+   "trackerStatus": "MERGED 2026-10-31",
+   "branch": "",
+   "files": "",
+   "notes": "",
+   "issueState": null,
+   "issueClosedAt": null,
+   "status": "PR only",
+   "prNumber": 13,
+   "prUrl": "https://github.com/CloudCorpRecords/rdrive/pull/13",
+   "prState": "merged",
+   "prDate": "2026-10-31",
+   "prLabel": "PR #13 merged 2026-10-31",
+   "stage": "Merged",
+   "error": ""
+  },
+  {
+   "date": "2026-10-31",
+   "repo": "CloudCorpRecords/rdrive",
+   "issue": "",
+   "title": "Sign in new devices from a signed-in one; one-click AI connect",
+   "issueUrl": "",
+   "type": "",
+   "labels": "",
+   "trackerStatus": "PR OPEN",
+   "branch": "",
+   "files": "",
+   "notes": "",
+   "issueState": null,
+   "issueClosedAt": null,
+   "status": "PR only",
+   "prNumber": 14,
+   "prUrl": "https://github.com/CloudCorpRecords/rdrive/pull/14",
+   "prState": "open",
+   "prDate": null,
+   "prLabel": "PR #14 open",
+   "stage": "PR open",
    "error": ""
   }
  ]
