@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T18:59:57.520645+00:00",
+ "generatedAt": "2026-11-11T20:53:24.302434+00:00",
  "source": "GitHub API issue and PR objects; row list from the PR tracker sheet (read only)",
  "rows": [
   {
@@ -5461,7 +5461,7 @@
    "issueUrl": "https://github.com/Kotlin/kotlinx.serialization/issues/3307",
    "type": "",
    "labels": "",
-   "trackerStatus": "PR OPEN",
+   "trackerStatus": "MERGED 2026-11-11",
    "branch": "",
    "files": "",
    "notes": "",
@@ -5470,10 +5470,10 @@
    "status": "Open",
    "prNumber": 3312,
    "prUrl": "https://github.com/Kotlin/kotlinx.serialization/pull/3312",
-   "prState": "open",
-   "prDate": null,
-   "prLabel": "PR #3312 open",
-   "stage": "PR open",
+   "prState": "merged",
+   "prDate": "2026-11-11",
+   "prLabel": "PR #3312 merged 2026-11-11",
+   "stage": "Merged",
    "error": ""
   },
   {
