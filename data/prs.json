@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T15:56:19.452937+00:00",
+ "generatedAt": "2026-11-11T18:59:57.520645+00:00",
  "source": "GitHub API issue and PR objects; row list from the PR tracker sheet (read only)",
  "rows": [
   {
@@ -4978,19 +4978,19 @@
    "issueUrl": "https://github.com/mandarons/icloud-docker/issues/585",
    "type": "",
    "labels": "",
-   "trackerStatus": "PR OPEN",
+   "trackerStatus": "MERGED 2026-11-11",
    "branch": "",
    "files": "",
    "notes": "",
-   "issueState": "open",
-   "issueClosedAt": null,
-   "status": "Open",
+   "issueState": "closed",
+   "issueClosedAt": "2026-11-11",
+   "status": "Closed 2026-11-11",
    "prNumber": 588,
    "prUrl": "https://github.com/mandarons/icloud-docker/pull/588",
-   "prState": "open",
-   "prDate": null,
-   "prLabel": "PR #588 open",
-   "stage": "PR open",
+   "prState": "merged",
+   "prDate": "2026-11-11",
+   "prLabel": "PR #588 merged 2026-11-11",
+   "stage": "Merged",
    "error": ""
   },
   {
