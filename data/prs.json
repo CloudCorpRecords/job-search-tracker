@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T08:56:16.986101+00:00",
+ "generatedAt": "2026-11-11T15:56:19.452937+00:00",
  "source": "GitHub API issue and PR objects; row list from the PR tracker sheet (read only)",
  "rows": [
   {
@@ -6082,19 +6082,19 @@
    "issueUrl": "https://github.com/cubrid-lab/cubrid-cookbook-python/issues/522",
    "type": "",
    "labels": "",
-   "trackerStatus": "PR OPEN",
+   "trackerStatus": "MERGED 2026-11-11",
    "branch": "",
    "files": "",
    "notes": "",
-   "issueState": "open",
-   "issueClosedAt": null,
-   "status": "Open",
+   "issueState": "closed",
+   "issueClosedAt": "2026-11-11",
+   "status": "Closed 2026-11-11",
    "prNumber": 565,
    "prUrl": "https://github.com/cubrid-lab/cubrid-cookbook-python/pull/565",
-   "prState": "open",
-   "prDate": null,
-   "prLabel": "PR #565 open",
-   "stage": "PR open",
+   "prState": "merged",
+   "prDate": "2026-11-11",
+   "prLabel": "PR #565 merged 2026-11-11",
+   "stage": "Merged",
    "error": ""
   },
   {
