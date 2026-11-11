@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T01:50:56.048884+00:00",
+ "generatedAt": "2026-11-11T08:56:16.986101+00:00",
  "source": "GitHub API issue and PR objects; row list from the PR tracker sheet (read only)",
  "rows": [
   {
@@ -5047,19 +5047,19 @@
    "issueUrl": "https://github.com/lingui/js-lingui/issues/2763",
    "type": "",
    "labels": "",
-   "trackerStatus": "PR OPEN",
+   "trackerStatus": "CLOSED 2026-11-11 unmerged",
    "branch": "",
    "files": "",
    "notes": "",
-   "issueState": "open",
-   "issueClosedAt": null,
-   "status": "Open",
+   "issueState": "closed",
+   "issueClosedAt": "2026-11-11",
+   "status": "Closed 2026-11-11",
    "prNumber": 2771,
    "prUrl": "https://github.com/lingui/js-lingui/pull/2771",
-   "prState": "open",
-   "prDate": null,
-   "prLabel": "PR #2771 open",
-   "stage": "PR open",
+   "prState": "closed",
+   "prDate": "2026-11-11",
+   "prLabel": "PR #2771 closed unmerged 2026-11-11",
+   "stage": "PR closed unmerged",
    "error": ""
   },
   {
