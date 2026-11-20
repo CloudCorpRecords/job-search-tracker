@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-19T14:52:37.373604+00:00",
+ "generatedAt": "2026-11-20T10:49:29.956221+00:00",
  "source": "GitHub API issue and PR objects; row list from the PR tracker sheet (read only)",
  "rows": [
   {
@@ -6220,7 +6220,7 @@
    "issueUrl": "https://github.com/ublue-os/bazzite/issues/2379",
    "type": "",
    "labels": "",
-   "trackerStatus": "PR OPEN",
+   "trackerStatus": "MERGED 2026-11-20",
    "branch": "",
    "files": "",
    "notes": "",
@@ -6229,10 +6229,10 @@
    "status": "Open",
    "prNumber": 6376,
    "prUrl": "https://github.com/ublue-os/bazzite/pull/6376",
-   "prState": "open",
-   "prDate": null,
-   "prLabel": "PR #6376 open",
-   "stage": "PR open",
+   "prState": "merged",
+   "prDate": "2026-11-20",
+   "prLabel": "PR #6376 merged 2026-11-20",
+   "stage": "Merged",
    "error": ""
   },
   {
