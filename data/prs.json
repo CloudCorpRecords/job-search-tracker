@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T10:49:29.956221+00:00",
+ "generatedAt": "2026-11-21T02:53:59.455261+00:00",
  "source": "GitHub API issue and PR objects; row list from the PR tracker sheet (read only)",
  "rows": [
   {
@@ -6178,9 +6178,9 @@
    "branch": "",
    "files": "",
    "notes": "",
-   "issueState": "open",
-   "issueClosedAt": null,
-   "status": "Open",
+   "issueState": "closed",
+   "issueClosedAt": "2026-11-20",
+   "status": "Closed 2026-11-20",
    "prNumber": 4657,
    "prUrl": "https://github.com/redis/redis-py/pull/4657",
    "prState": "closed",
@@ -6255,6 +6255,29 @@
    "prState": "open",
    "prDate": null,
    "prLabel": "PR #570 open",
+   "stage": "PR open",
+   "error": ""
+  },
+  {
+   "date": "2026-11-21",
+   "repo": "Founders-Bay/founders-bay",
+   "issue": "",
+   "title": "Fix QR check-in, simplify membership to one price, align sponsorship with the live offers",
+   "issueUrl": "",
+   "type": "",
+   "labels": "",
+   "trackerStatus": "PR OPEN",
+   "branch": "",
+   "files": "",
+   "notes": "",
+   "issueState": null,
+   "issueClosedAt": null,
+   "status": "PR only",
+   "prNumber": 904,
+   "prUrl": "https://github.com/Founders-Bay/founders-bay/pull/904",
+   "prState": "open",
+   "prDate": null,
+   "prLabel": "PR #904 open",
    "stage": "PR open",
    "error": ""
   }
